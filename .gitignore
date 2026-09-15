@@ -1,2 +1,9 @@
 ~$*
-archive/
+.venv/
+
+# Only files/ and README.md are pushed; everything else stays local
+*
+!files/
+!files/**
+!README.md
+!.gitignore
